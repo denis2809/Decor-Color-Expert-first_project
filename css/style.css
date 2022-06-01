@@ -29,29 +29,38 @@
 	margin: 0;
 }
 
-header {
-	padding: 27px 0 4px;
-	background-color: #4C6071;
+li {
+	list-style: none;
 }
 
-.container {
+a {
+	text-decoration: none;
+}
+
+.box {
 	max-width: 1110px;
 	margin: auto;
 }
 
-header .container {
+header .box {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 27px 0 4px;
+	margin-bottom: 88px;
 }
 
-header .menu_list {
+.main_banner{
+	background-image: url(../images/Rectangle.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.menu_list{
 	display: flex;
-	list-style: none;
 }
 
-header .menu_list a {
-	text-decoration: none;
+.menu_list li a{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
@@ -61,22 +70,13 @@ header .menu_list a {
 	margin: 0 10px;
 }
 
-header .connect li:last-of-type a {
+.main_banner header .connect li:last-of-type a{
 	text-decoration: underline;
 	margin: inherit;
 	margin-left: 10px;
 }
 
-/* main_banner---------------------------------------- */
-
-.main_banner {
-	background-image: url(../images/Rectangle.jpg);
-	background-size: cover;
-	height: 75vh;
-	padding: 90px 0 34px;
-}
-
-.main_banner h1 {
+.main_banner .box h1 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
@@ -87,7 +87,7 @@ header .connect li:last-of-type a {
 	margin-bottom: 30px;
 }
 
-.main_banner article {
+.main_banner .box article {
 	max-width: 512px;
 	padding: 36px 50px 36px 31px;
 	background: rgba(255, 255, 255, 0.9);
@@ -97,7 +97,7 @@ header .connect li:last-of-type a {
 	margin-bottom: 98px;
 }
 
-.main_banner article p {
+.main_banner .box article p {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
@@ -106,11 +106,11 @@ header .connect li:last-of-type a {
 	color: #000000;
 }
 
-.main_banner article img {
+.main_banner .box article img {
 	margin-right: 28px;
 }
 
-.main_banner a {
+.main_banner .box .a_poeject  {
 	padding: 20px 48px;
 	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
 	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
@@ -122,139 +122,6 @@ header .connect li:last-of-type a {
 	font-size: 20px;
 	line-height: 150%;
 	color: #FFFFFF;
-
 }
 
-/* two_banner=-------------------------------------- */
-
-.two_banner {
-	padding: 14px 0 158px;
-}
-
-.two_banner img {
-	width: 100%;
-}
-
-.two_banner .container {
-	display: flex;
-	justify-content: space-between;
-}
-
-.two_banner h2 {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 130%;
-	color: #000000;
-	margin-top: 181px;
-	margin-bottom: 60px;
-}
-
-.two_banner p {
-	max-width: 385px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 150%;
-	color: #000000;
-}
-
-.two_banner .text {
-	margin-bottom: 30px;
-}
-
-.image_one {
-	max-width: 605px;
-	margin-top: 160px;
-}
-
-.two_banner .image_one img {
-	width: 100%;
-	display: block;
-}
-
-/* three_banner---------------------------------- */
-
-.three_banner {
-	padding: 21px 0 200px;
-}
-
-.three_banner .container {
-	display: flex;
-	justify-content: space-between;
-}
-
-.three_banner .little_dot {
-	width: 100%;
-	margin-bottom: 200px;
-}
-
-.three_banner h2 {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 130%;
-	color: #000000;
-	margin-bottom: 30px;
-}
-
-.form {
-	max-width: 392px;
-}
-
-input {
-	width: 100%;
-	border: none;
-	border-bottom: #000000 solid 1px;
-	padding-bottom: 5px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 150%;
-	color: #000000;
-	margin-bottom: 40px;
-}
-
-textarea {
-	width: 100%;
-	resize: none;
-	border: none;
-	border-bottom: #000000 solid 1px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 150%;
-	color: #000000;
-	height: 26px;
-	padding-bottom: 5px;
-	margin-bottom: 60px;
-}
-
-button {
-	padding: 20px 48px;
-	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
-	border-radius: 10px;
-	text-decoration: none;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 150%;
-	color: #FFFFFF;
-	border: none;
-}
-
-.image_three_banner {
-	max-width: 615px;
-}
-
-.three_banner .image_three_banner img {
-	width: 100%;
-	display: block;
-}
+/* section_two------------------ */
