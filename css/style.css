@@ -39,8 +39,13 @@ a {
 }
 
 .box {
-	max-width: 1110px;
+	max-width: 1125px;
 	margin: auto;
+}
+
+header {
+	position: absolute;
+	width: 100%;
 }
 
 header .box {
@@ -51,36 +56,40 @@ header .box {
 	margin-bottom: 88px;
 }
 
-.main_banner {
-	background-image: url(../images/Rectangle.jpg);
-	background-size: cover;
-	height: 100vh;
-}
-
 .menu_list {
 	display: flex;
 }
 
 .menu_list li a {
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 150%;
 	color: #FFFFFF;
+}
+
+.menu_list li {
 	margin: 0 10px;
 }
 
-.main_banner header .connect li:last-of-type a {
-	text-decoration: underline;
-	margin: inherit;
-	margin-left: 10px;
+.call li:last-of-type {
+	margin-right: inherit;
 }
 
-.main_banner .box h1 {
-	font-family: 'Roboto';
+/* main_banner-------------------------------- */
+
+.main_banner {
+	background-image: url(../images/Rectangle.jpg);
+	background-size: cover;
+	min-height: 77vh;
+	padding-top: 170px;
+}
+
+.main_banner h1 {
+	font-family: 'Gothic A1', sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 56px;
 	line-height: 130%;
 	color: #FFFFFF;
@@ -88,18 +97,18 @@ header .box {
 	margin-bottom: 30px;
 }
 
-.main_banner .box article {
+.main_banner article {
 	max-width: 512px;
+	display: flex;
 	padding: 36px 50px 36px 31px;
 	background: rgba(255, 255, 255, 0.9);
 	border-radius: 20px;
-	display: flex;
 	box-sizing: border-box;
 	margin-bottom: 98px;
 }
 
-.main_banner .box article p {
-	font-family: 'Roboto';
+.main_banner article p {
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
@@ -107,142 +116,19 @@ header .box {
 	color: #000000;
 }
 
-.main_banner .box article img {
+.main_banner article img {
 	margin-right: 28px;
 }
 
-.main_banner .box .a_poeject {
+.main_banner a {
 	padding: 20px 48px;
-	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
-	border-radius: 10px;
-	text-decoration: none;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 150%;
 	color: #FFFFFF;
-}
-
-.main_banner .box .a_poeject:hover {
-	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-border: 2px solid #000000;
-box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
-border-radius: 10px;
-}
-
-/* section_two------------------ */
-
-.two_banner .dot_big {
-	width: 100%;
-	margin-bottom: 160px;
-}
-
-.two_banner .box {
-	display: flex;
-	justify-content: space-between;
-}
-
-.two_banner article {
-	max-width: 385px;
-	margin-top: 24px;
-}
-
-.two_banner {
-	padding: 14px 0 158px;
-}
-
-.two_banner article h2 {
-	font-family: 'Gothic A1', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 130%;
-	color: #000000;
-	margin-bottom: 60px;
-}
-
-.two_banner article p {
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 150%;
-	color: #000000;
-}
-
-.two_banner .text {
-	margin-bottom: 24px;
-}
-
-/* three_banner--------------------------- */
-
-.three_banner .box {
-	display: flex;
-	justify-content: space-between;
-}
-
-.three_banner img {
-	width: 100%;
-	margin-bottom: 200px;
-}
-
-input {
-	width: 100%;
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 150%;
-	color: #000000;
-	max-height: 30px;
-	padding-bottom: 5px;
-	margin-bottom: 40px;
-	border: none;
-	border-bottom: #000000 1px solid;
-}
-
-textarea {
-	width: 100%;
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 150%;
-	color: #000000;
-	max-height: 26px;
-	resize: none;
-	padding-bottom: 5px;
-	border: none;
-	border-bottom: #000000 1px solid;
-	margin-bottom: 60px;
-}
-
-.form_wrap {
-	max-width: 392px;
-}
-
-.three_banner h2 {
-	font-family: 'Gothic A1', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 130%;
-	color: #000000;
-	margin-bottom: 30px;
-}
-
-.three_banner a {
-	padding: 20px 48px;
 	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
 	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
 	border-radius: 10px;
-	text-decoration: none;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 150%;
-	color: #FFFFFF;
 }
