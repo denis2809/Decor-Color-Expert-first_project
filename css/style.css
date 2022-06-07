@@ -132,3 +132,65 @@ header .box {
 	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
 	border-radius: 10px;
 }
+
+/* two_banner-------------------------- */
+
+.two_banner {
+	padding: 14px 0 156px;
+}
+
+.two_banner .box{
+	display: flex;
+}
+
+.two_banner article {
+	max-width: 385px;
+	margin-top: 24px;
+}
+
+.two_banner img {
+	width: 100%;
+	margin-bottom: 160px;
+}
+
+.two_banner article h2 {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #000000;
+	margin-bottom: 60px;
+}
+
+.two_banner article p:first-of-type {
+	margin-bottom: 30px;
+}
+
+.two_banner article p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #000000;
+}
+
+strong {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.two_banner .img{
+	width: 770px;
+	position: absolute;
+	right: 0;
+}
+
+.two_banner .img img{
+	width: 100%;
+}
