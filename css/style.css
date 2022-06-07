@@ -139,7 +139,7 @@ header .box {
 	padding: 14px 0 156px;
 }
 
-.two_banner .box{
+.two_banner .box {
 	display: flex;
 }
 
@@ -185,12 +185,79 @@ strong {
 	color: #000000;
 }
 
-.two_banner .img{
+.two_banner .img {
 	width: 770px;
 	position: absolute;
 	right: 0;
 }
 
-.two_banner .img img{
+.two_banner .img img {
 	width: 100%;
+	display: block;
 }
+
+/* three_banner----------------------- */
+
+.three_banner {
+	padding: 30px 0 150px;
+}
+
+.three_banner .img img {
+	width: 100%;
+	margin-bottom: 150px;
+}
+
+.list_factor {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.list_factor img {
+	margin-bottom: 20px;
+}
+
+.three_banner .box h2 {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #373737;
+	margin-bottom: 52px;
+	position: relative;
+	left: 98px;
+}
+
+.three_banner h5 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #373737;
+}
+
+.list_factor_two {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+
+.three_banner .button {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #FFFFFF;
+	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+	box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	padding: 20px 46px;
+	display: block;
+	margin: auto;
+	max-width: 255px;
+	box-sizing: border-box;
+}
+/* four_banner------------------------------ */
