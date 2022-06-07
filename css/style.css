@@ -318,7 +318,80 @@ strong {
 
 }
 
-.wrap-video{
+.wrap-video {
 	display: flex;
 	justify-content: space-between;
+}
+
+/* five_banner---------------- */
+
+.five_banner {
+	padding: 24px 0 200px;
+}
+
+.five_banner img{
+	margin-bottom: 200px;
+}
+
+.five_banner .wrapp{
+	max-width: 392px;
+}
+
+.five_banner .box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.five_banner h2 {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #000000;
+	margin-bottom: 30px;
+
+}
+
+.five_banner input {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 150%;
+	color: #000000;
+	border: none;
+	border-bottom: #000000 1px solid;
+	margin-bottom: 40px;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.five_banner textarea {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 150%;
+	color: #000000;
+	resize: none;
+	border: none;
+	border-bottom: #000000 1px solid;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 60px;
+}
+
+.btn{
+	padding: 20px 48px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #FFFFFF;
+	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	border: none;
 }
