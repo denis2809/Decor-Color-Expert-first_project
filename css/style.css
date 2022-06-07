@@ -260,4 +260,65 @@ strong {
 	max-width: 255px;
 	box-sizing: border-box;
 }
+
 /* four_banner------------------------------ */
+
+.four_banner {
+	background-image: url(../images/Mask\ Group.svg);
+	background-color: #4C6071;
+	background-size: cover;
+	padding: 60px 0 95px;
+}
+
+.four_banner .box h2 {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #FFFFFF;
+	margin-bottom: 88px;
+	position: relative;
+	left: 98px;
+}
+
+.video-block {
+	max-width: 255px;
+	position: relative;
+}
+
+.video {
+	border-radius: 23px;
+	margin-bottom: 20px;
+}
+
+.play {
+	position: absolute;
+	top: 78px;
+	right: 85px;
+}
+
+.four_banner .video-block h5 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.four_banner .video-block p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+
+}
+
+.wrap-video{
+	display: flex;
+	justify-content: space-between;
+}
