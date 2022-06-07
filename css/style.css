@@ -125,6 +125,13 @@ header .box {
 	color: #FFFFFF;
 }
 
+.main_banner .box .a_poeject:hover {
+	background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+border: 2px solid #000000;
+box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+}
+
 /* section_two------------------ */
 
 .two_banner .dot_big {
