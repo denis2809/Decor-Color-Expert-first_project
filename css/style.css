@@ -200,6 +200,7 @@ strong {
 
 .three_banner {
 	padding: 30px 0 150px;
+	text-align: center;
 }
 
 .three_banner .img img {
@@ -217,6 +218,10 @@ strong {
 	margin-bottom: 20px;
 }
 
+.list_factor_two img {
+	margin-bottom: 20px;
+}
+
 .three_banner .box h2 {
 	font-family: 'Gothic A1', sans-serif;
 	font-style: normal;
@@ -225,17 +230,19 @@ strong {
 	line-height: 130%;
 	color: #373737;
 	margin-bottom: 52px;
+	text-align: left;
 	position: relative;
 	left: 98px;
 }
 
-.three_banner h5 {
+.three_banner p {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 150%;
 	color: #373737;
+	text-align: left;
 }
 
 .list_factor_two {
@@ -255,10 +262,6 @@ strong {
 	box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
 	border-radius: 10px;
 	padding: 20px 46px;
-	display: block;
-	margin: auto;
-	max-width: 255px;
-	box-sizing: border-box;
 }
 
 /* four_banner------------------------------ */
@@ -283,6 +286,7 @@ strong {
 }
 
 .video-block {
+	display: block;
 	max-width: 255px;
 	position: relative;
 }
@@ -290,6 +294,7 @@ strong {
 .video {
 	border-radius: 23px;
 	margin-bottom: 20px;
+	width: 100%;
 }
 
 .play {
@@ -298,7 +303,7 @@ strong {
 	right: 85px;
 }
 
-.four_banner .video-block h5 {
+.four_banner .text-1 {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -308,7 +313,7 @@ strong {
 	margin-bottom: 10px;
 }
 
-.four_banner .video-block p {
+.four_banner .text-2 {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -331,6 +336,7 @@ strong {
 
 .five_banner .dot-img{
 	margin-bottom: 200px;
+	width: 100%;
 }
 
 .five_banner .wrapp{
