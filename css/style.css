@@ -334,16 +334,16 @@ strong {
 	padding: 24px 0 200px;
 }
 
-.five_banner .dot-img{
+.five_banner .dot-img {
 	margin-bottom: 200px;
 	width: 100%;
 }
 
-.five_banner .wrapp{
+.five_banner .wrapp {
 	max-width: 392px;
 }
 
-.five_banner .box{
+.five_banner .box {
 	display: flex;
 	justify-content: space-between;
 }
@@ -388,7 +388,7 @@ strong {
 	margin-bottom: 60px;
 }
 
-.btn{
+.btn {
 	padding: 20px 48px;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -400,4 +400,62 @@ strong {
 	box-shadow: 0px 0px 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
 	border-radius: 10px;
 	border: none;
+}
+
+/* ?six-banner--------------------------------- */
+
+.six-banner {
+	background-image: url(../images/Mask\ Group.svg);
+	background-color: #4C6071;
+	background-size: cover;
+	padding: 60px 0 60px;
+}
+
+.six-banner h2 {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #FFFFFF;
+	margin-bottom: 67px;
+	margin-left: 98px;
+}
+
+.six-banner .box article {
+	width: 255px;
+	padding: 50px 30px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.six-banner .box article p:first-of-type {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #373737;
+	margin-bottom: 10px;
+}
+
+.six-banner .box article p:last-of-type {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 150%;
+	color: #373737;
+}
+
+.six-banner .box article img {
+	margin-bottom: 50px;
+	position: relative;
+	left: 67px;
+}
+
+.wrapp-why-we{
+	display: flex;
+	justify-content: space-between;
 }
