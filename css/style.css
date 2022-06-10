@@ -489,6 +489,7 @@ strong {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 80px;
+	flex-wrap: wrap;
 }
 
 .portfolio-banner .wrapp-portfolio img {
@@ -518,6 +519,7 @@ strong {
 
 .portfolio-block {
 	max-width: 540px;
+	overflow: hidden;
 }
 
 .box-btn {
