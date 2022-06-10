@@ -455,7 +455,75 @@ strong {
 	left: 67px;
 }
 
-.wrapp-why-we{
+.wrapp-why-we {
 	display: flex;
 	justify-content: space-between;
+}
+
+/* ?portfolio-banner=--------------- */
+
+.portfolio-banner {
+	padding: 30px 0 170px;
+}
+
+.portfolio-banner .wrapp-portfolio .img {
+	max-width: 540px;
+}
+
+.portfolio-banner .dot {
+	width: 100%;
+	margin-bottom: 170px;
+}
+
+.portfolio-banner h2 {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #373737;
+	margin-bottom: 50px;
+	margin-left: 98px;
+}
+.wrapp-portfolio {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+.portfolio-banner .wrapp-portfolio img {
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.portfolio-banner .wrapp-portfolio h5 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	color: #373737;
+	margin-bottom: 10px;
+}
+
+.portfolio-banner .wrapp-portfolio p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 150%;
+	color: #373737;
+}
+
+.portfolio-block {
+	max-width: 540px;
+}
+
+.box-btn {
+	text-align: center;
+}
+
+.portfolio-banner .btn {
+	padding: 20px 68px;
 }
