@@ -205,6 +205,7 @@ strong {
 
 .three_banner .img img {
 	width: 100%;
+	display: block;
 	margin-bottom: 150px;
 }
 
@@ -212,6 +213,12 @@ strong {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 40px;
+}
+
+.img-block{
+	max-width: 255px;
+	border-radius: 20px;
+	overflow: hidden;
 }
 
 .list_factor img {
