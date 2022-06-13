@@ -231,8 +231,7 @@ strong {
 	color: #373737;
 	margin-bottom: 52px;
 	text-align: left;
-	position: relative;
-	left: 98px;
+	margin-left: 98px;
 }
 
 .three_banner p {
@@ -281,8 +280,7 @@ strong {
 	line-height: 130%;
 	color: #FFFFFF;
 	margin-bottom: 88px;
-	position: relative;
-	left: 98px;
+	margin-left: 98px;
 }
 
 .video-block {
@@ -609,4 +607,29 @@ footer ul li a:last-of-type img {
 
 footer ul:last-of-type {
 	text-align: right;
+}
+
+/*?services----banner------------------------ */
+
+.services {
+	background-image: url(../images/Mask\ Group.svg);
+	background-color: #4C6071;
+	background-size: cover;
+	padding: 60px 0;
+}
+
+.block-1 {
+	background: rgba(255, 255, 255, 1);
+	padding: 30px 0px 30px 30px;
+	border-radius: 20px;
+}
+
+.block-1 p {
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #000000;
+
 }
