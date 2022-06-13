@@ -215,7 +215,7 @@ strong {
 	margin-bottom: 40px;
 }
 
-.img-block{
+.img-block {
 	max-width: 255px;
 	border-radius: 20px;
 	overflow: hidden;
@@ -290,6 +290,17 @@ strong {
 	margin-left: 98px;
 }
 
+.four_banner .img-block {
+	max-width: 255px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.four_banner .img-block img {
+	width: 100%;
+	display: block;
+}
+
 .video-block {
 	display: block;
 	max-width: 255px;
@@ -347,6 +358,16 @@ strong {
 
 .five_banner .wrapp {
 	max-width: 392px;
+}
+
+.five_banner .img{
+	max-width: 615px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+five_banner .img img{
+	width: 100%;
 }
 
 .five_banner .box {
@@ -474,6 +495,8 @@ strong {
 
 .portfolio-banner .wrapp-portfolio .img {
 	max-width: 540px;
+	border-radius: 20px;
+	overflow: hidden;
 }
 
 .portfolio-banner .dot {
