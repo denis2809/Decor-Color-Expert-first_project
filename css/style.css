@@ -627,11 +627,11 @@ footer ul li:nth-child(2) {
 	margin-bottom: 30px;
 }
 
-footer ul li a img {
+footer .social a {
 	margin-right: 20px;
 }
 
-footer ul li a:last-of-type img {
+footer .social a:last-of-type {
 	margin-right: inherit;
 }
 
