@@ -665,7 +665,7 @@ footer ul:last-of-type {
 	color: #000000;
 }
 
-/* ?owl-corusel---------------------------------- */
+/* ?owl-corusel---------------------- */
 
 .owl-nav .owl-prev::before {
 	font-family: "Font Awesome 6 Free";
@@ -695,21 +695,3 @@ footer ul:last-of-type {
 	top: -120px;
 	right: 98px;
 }
-
-.owl-dots .owl-dot::before{
-	font-family: "Font Awesome 6 Free";
-	font-weight: 900;
-	content: "\f111";
-	font-size: 14px;
-	color: rgba(255, 255, 255, 0.73);
-	margin: 8px;
-}
-
-.owl-dots{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	bottom: -40px;
-}
-
