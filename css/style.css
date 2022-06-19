@@ -317,6 +317,8 @@ strong {
 	position: absolute;
 	top: 78px;
 	right: 85px;
+	max-width: 82px;
+	display: block;
 }
 
 .four_banner .text-1 {
@@ -360,13 +362,13 @@ strong {
 	max-width: 392px;
 }
 
-.five_banner .img{
+.five_banner .img {
 	max-width: 615px;
 	border-radius: 20px;
 	overflow: hidden;
 }
 
-five_banner .img img{
+five_banner .img img {
 	width: 100%;
 }
 
@@ -661,5 +663,53 @@ footer ul:last-of-type {
 	font-size: 24px;
 	line-height: 130%;
 	color: #000000;
-
 }
+
+/* ?owl-corusel---------------------------------- */
+
+.owl-nav .owl-prev::before {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f060";
+	font-size: 30px;
+	color: #FFFFFF;
+	position: relative;
+	right: 15px;
+}
+
+.owl-nav .owl-next::before {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f061";
+	font-size: 30px;
+	color: #FFFFFF;
+	position: relative;
+	left: 15px;
+}
+
+.owl-nav {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: flex-end;
+	top: -120px;
+	right: 98px;
+}
+
+.owl-dots .owl-dot::before{
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f111";
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.73);
+	margin: 8px;
+}
+
+.owl-dots{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: -40px;
+}
+
