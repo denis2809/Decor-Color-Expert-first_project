@@ -673,6 +673,9 @@ footer ul:last-of-type {
 	content: "\f060";
 	font-size: 30px;
 	color: #FFFFFF;
+}
+
+.owl-prev{
 	position: relative;
 	right: 15px;
 }
@@ -683,6 +686,9 @@ footer ul:last-of-type {
 	content: "\f061";
 	font-size: 30px;
 	color: #FFFFFF;
+}
+
+.owl-next{
 	position: relative;
 	left: 15px;
 }
