@@ -778,7 +778,7 @@ footer ul:last-of-type {
 }
 
 .select_method {
-	width: 408px;
+	max-width: 408px;
 }
 
 .select_method input {
@@ -859,4 +859,8 @@ footer ul:last-of-type {
 .ui-accordion .ui-accordion-header.ui-accordion-header-collapsed {
 	border-radius: 20px;
 	margin-bottom: 5px;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 0 30px 30px 30px;
 }
